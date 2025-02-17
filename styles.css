@@ -6,10 +6,47 @@ body {
     background-color: #f4f4f9;
 }
 
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
 /* Left Panel */
 .left-panel {
     position: fixed;
-    width: 250px;
+    top: 50px;  /* Adjusted for navbar */
+    width: 280px;
     height: 100%;
     background-image: url('https://jesvin3.github.io/portfolio/istockphoto-1412282189-2048x2048.jpg');
     background-size: cover;
@@ -28,7 +65,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);  /* 50% dark overlay */
-    z-index: -1;  /* Makes sure the overlay is behind the text */
+    z-index: -1;
 }
 
 .left-panel img {
@@ -48,44 +85,13 @@ body {
 
 /* Main Content */
 .main-content {
-    margin-left: 250px;
-    padding: 20px;
+    margin-left: 290px;
+    padding: 80px 20px;  /* Adjusted for navbar */
 }
 
 .main-content h1 {
     font-size: 36px;
     color: #333;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-size: 28px;
-    color: #444;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #3498db;
-}
-
-ul li a:hover {
-    text-decoration: underline;
 }
 
 /* Contact Section */
