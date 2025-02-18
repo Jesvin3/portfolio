@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Black background */
-    color: #00FF00; /* Neon green text */
+    background-color: #5e5e5e; /* Black background */
+    color: #000000; /* Neon green text */
     line-height: 1.6;
     overflow: auto;
 }
@@ -30,18 +30,18 @@ body {
     margin-bottom: 20px;
     margin-right: 50px;
     padding-right: 100px;
-    color: #00FF00; /* Hacker green for the title */
+    color: #d92500; /* Hacker green for the title */
 }
 
 .intro p {
     font-size: 18px;
     margin-bottom: 20px;
     margin-right: 50px;
-    color: #66FF00; /* Lighter green for paragraph text */
+    color: #000000; /* Lighter green for paragraph text */
 }
 
 .about-btn {
-    background-color: #00FF00;
+    background-color: #d92500;
     color: #000; /* Black text */
     padding: 10px 20px;
     border-radius: 5px;
@@ -49,7 +49,7 @@ body {
 }
 
 .about-btn:hover {
-    background-color: #66FF00; /* Lighter green for hover */
+    background-color: #f7baa7; /* Lighter green for hover */
 }
 
 /* Lottie Animation */
@@ -64,8 +64,8 @@ dotlottie-player {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #333; /* Dark navbar background */
-    color: #00FF00; /* Neon green text for navbar */
+    background-color: #5e5e5e; /* Dark navbar background */
+    color: #000000; /* Neon green text for navbar */
     padding: 10px;
     margin: 0;
     position: fixed;
@@ -88,7 +88,7 @@ dotlottie-player {
 }
 
 .navbar ul li a {
-    color: #00FF00; /* Neon green text for links */
+    color: #000000; /* Neon green text for links */
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -107,12 +107,12 @@ dotlottie-player {
 
 .about-me-main-content h1 {
     font-size: 36px;
-    color: #00FF00; /* Neon green title text */
+    color: #000000; /* Neon green title text */
 }
 
 /* Contact Section */
 .contact a {
-    color: #00FF00; /* Neon green text for links */
+    color: #000000; /* Neon green text for links */
 }
 
 .contact a:hover {
@@ -123,5 +123,5 @@ dotlottie-player {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #00FF00; /* Neon green text for footer */
+    color: #000000; /* Neon green text for footer */
 }
