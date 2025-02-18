@@ -3,14 +3,71 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Neon green text */
+    line-height: 1.6;
+    overflow: auto;
 }
+
+.main-content {
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align the content to the right */
+    gap: 10px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.intro {
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding-right: 100px;
+    color: #00FF00; /* Hacker green for the title */
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: #66FF00; /* Lighter green for paragraph text */
+}
+
+.about-btn {
+    background-color: #00FF00;
+    color: #000; /* Black text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: #66FF00; /* Lighter green for hover */
+}
+
+/* Lottie Animation */
+dotlottie-player {
+    flex-shrink: 0;
+    width: 600px;
+    height: 600px;
+    margin-left: 20px; /* Give a little space to the left */
+    letter-spacing: 200px;
+}
+
 
 /* Navigation Bar */
 .navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #333; /* Dark navbar background */
+    color: #00FF00; /* Neon green text for navbar */
+    padding: 10px;
+    margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -31,7 +88,7 @@ body {
 }
 
 .navbar ul li a {
-    color: white;
+    color: #00FF00; /* Neon green text for links */
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -42,64 +99,29 @@ body {
     border-radius: 5px;
 }
 
-/* Left Panel */
-.left-panel {
-    position: fixed;
-    top: 50px;  /* Adjusted for navbar */
-    width: 280px;
-    height: 100%;
-    background-image: url('https://jesvin3.github.io/portfolio/istockphoto-1412282189-2048x2048.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.left-panel:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);  /* 50% dark overlay */
-    z-index: -1;
-}
-
-.left-panel img {
-    width: 100%;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.left-panel h2 {
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-.left-panel p {
-    font-size: 14px;
-}
-
 /* Main Content */
-.main-content {
-    margin-left: 290px;
-    padding: 80px 20px;  /* Adjusted for navbar */
+.about-me-main-content {
+    margin-left: 0; /* Removed margin to accommodate for no left panel */
+    padding: 10px 20px;  /* Adjusted for navbar */
 }
 
-.main-content h1 {
+.about-me-main-content h1 {
     font-size: 36px;
-    color: #333;
+    color: #00FF00; /* Neon green title text */
 }
 
 /* Contact Section */
 .contact a {
-    color: #3498db;
-    text-decoration: none;
+    color: #00FF00; /* Neon green text for links */
 }
 
 .contact a:hover {
     text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #00FF00; /* Neon green text for footer */
 }
