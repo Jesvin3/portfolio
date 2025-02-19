@@ -8,21 +8,25 @@ body {
     line-height: 1.6;
     overflow: auto;
 }
+body h1, h2{
+    color: #d92500;
+}
 
 .main-content {
-    max-width: 1200px;
-    margin: 20px;
+    max-width: 1400px; /* Increase max width */
+    margin: 20px auto; /* Center content */
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Align the content to the right */
-    gap: 10px;
-    padding-left: 200px;
-    padding-top: 20px;
+    justify-content: space-between;
+    gap: 50px; /* Add more space between elements */
+    padding: 20px;
 }
 
 .intro {
-    max-width: 900px;
-    margin-left: auto;
+    flex: 1.5; /* Increase its width relative to the animation */
+    max-width: 100%; /* Ensure it takes more space */
+    padding: 40px; /* Increase padding */
+    /* Ensure border is visible */
 }
 
 .intro h1 {
@@ -30,7 +34,6 @@ body {
     margin-bottom: 20px;
     margin-right: 50px;
     padding-right: 100px;
-    color: #d92500; /* Hacker green for the title */
 }
 
 .intro p {
@@ -46,6 +49,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .about-btn:hover {
@@ -55,17 +59,16 @@ body {
 /* Lottie Animation */
 dotlottie-player {
     flex-shrink: 0;
-    width: 600px;
-    height: 600px;
-    margin-left: 20px; /* Give a little space to the left */
-    letter-spacing: 200px;
+    width: 700px; /* Increase width */
+    height: 700px;
+    margin-left: 50px; /* Push it further right */
 }
 
 
 /* Navigation Bar */
 .navbar {
-    background-color: #5e5e5e; /* Dark navbar background */
-    color: #000000; /* Neon green text for navbar */
+    background-color: #d92500;
+    color: #000000;
     padding: 10px;
     margin: 0;
     position: fixed;
