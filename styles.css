@@ -46,6 +46,17 @@ body h1, h2{
     color: #000000; /* Lighter green for paragraph text */
 }
 
+.social-links {
+    margin-top: 15px;
+    
+}
+
+.social-links a {
+    color: #0077b5; /* LinkedIn Blue */
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
 .about-btn {
     background-color: #d92500;
     color: #000; /* Black text */
