@@ -13,13 +13,13 @@ body h1, h2{
 
 .projects, .certifications, .contact {
     max-width: 1600px; /* Match main-content width */
-    margin: 10px auto; /* Center content */
+    margin: auto; /* Center content */
     padding: 20px;
 }
 
 .main-content {
-    max-width: 1600px; /* Increase max width */
-    margin: 0px auto; /* Center content */
+    max-width: 1650px; /* Increase max width */
+    margin: auto; /* Center content */
     display: flex;
     align-items: top;
     justify-content: space-between;
@@ -73,8 +73,8 @@ body h1, h2{
 /* Lottie Animation */
 dotlottie-player {
 
-    align-self: top;
-    width: 400px; /* Increase width */
+    align-self: right;
+    width: 500px; /* Increase width */
     height: 400px;
     margin-left: 50px; /* Push it further right */
 }
@@ -106,7 +106,7 @@ dotlottie-player {
 }
 
 .navbar ul li a {
-    color: #000000; /* Neon green text for links */
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -119,18 +119,19 @@ dotlottie-player {
 
 /* Main Content */
 .about-me-main-content {
-    margin-left: 0; /* Removed margin to accommodate for no left panel */
-    padding: 10px 20px;  /* Adjusted for navbar */
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 10px 20px;
 }
 
 .about-me-main-content h1 {
     font-size: 36px;
-    color: #000000; /* Neon green title text */
+    color: #000000;
 }
 
 /* Contact Section */
 .contact a {
-    color: #000000; /* Neon green text for links */
+    color: #000000; 
 }
 
 .contact a:hover {
@@ -141,5 +142,5 @@ dotlottie-player {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #000000; /* Neon green text for footer */
+    color: #000000;
 }
