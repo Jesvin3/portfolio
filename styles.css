@@ -1,5 +1,7 @@
 /* General Styles */
-body {
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: Arial, sans-serif;
     padding: 0;
     background-color: #5e5e5e; /* Black background */
